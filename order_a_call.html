@@ -15,28 +15,37 @@
                 <a href="#"> Ua </a>
                 <a href="#"> Pl </a>
         </div>
-        <nav class="logo">
-        <img src="img/logo.png" alt="ecafelogo">
-            <p class="slogan">In any incomprehensible situation it is necessary to eat well</p>              
+        <nav>
+        <a href="index.html">
+            <img src="img/logo.png" alt="ecafelogo" class="ecafelogo">
+        </a>
+        <p class="slogan">In any incomprehensible situation it is necessary to eat well</p>              
         </nav>
     </header>
     <!--main header -->
-    <section  class="main_content">   
-        <nav class="navigation">
-            <a href="about_us.html">About us</a>
-            <a href="howToGet.html">How to get</a>
-            <a href="menu-big.html">Menu List</a>
-            <a href="order_a_call.html">Order a call</a>
-        </nav>
-        <div class="order-call">
-            <form method="POST" action="https://formspree.io/rynaleon@gmail.com">
-        <input id="name" name="name" type="text" placeholder="enter your name">
-        <input id="email" name="email" type="text" placeholder="enter your email">
-        <input id="tel" name="mobile number" type="text" placeholder="enter your mobile numder">
-        <textarea id="opinion" name="opinion" placeholder="your message" cols="150"></textarea>
-        <input type="submit" value="ORDER">
-    </form>
-</section>
+    <main>
+        <section  class="main_content">   
+            <nav class="navigation">
+                <a href="about_us.html">About us</a>
+                <a href="howToGet.html">How to get</a>
+                <a target="_blank" href="pdf/menu_big.pdf">Menu List</a>
+                <a href="order_a_call.html">Order a call</a>
+            </nav>
+        </section>
+        <div class="order">
+            <form method = "POST" action = "https://formspree.io/rynaleon@gmail.com">
+              <div class="container">
+                <input type="text" name="name" placeholder="Name" />
+                <input type="email" name="email" placeholder="Email" />
+                <input type="number" name="mobile number"  placeholder="PLEASE, ENTER YOUR CONTACT PHONE">
+                <textarea type="text" name="message" placeholder="Message"></textarea><br />
+                <button id="submit" type="submit">
+                  CALL ME :-)
+                </button>
+              </div>
+            </form>
+        </div>
+    </main>
     <footer>
         <nav class="infofooter">
             <p class="linkedfooter">
@@ -49,8 +58,7 @@
             </p>
             <p class="phone">+38097 711 8788</p>
             <p class="open-hours">Monday-Suturday 10 a.m - 11p.m   Sunday 12a.m - 12p.m</p>
-
-</nav>
+        </nav>
     </footer>
 </body>
 </html>
